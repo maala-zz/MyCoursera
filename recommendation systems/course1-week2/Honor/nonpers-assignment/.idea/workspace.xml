@@ -1,0 +1,778 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fc2cf493-7ec9-49c1-b2a6-c79f2b032c85" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gradle/2.14/taskArtifacts/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/2.14/taskArtifacts/cache.properties.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/2.14/taskArtifacts/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/2.14/taskArtifacts/fileSnapshots.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/2.14/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/2.14/taskArtifacts/taskArtifacts.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/2.14/taskArtifacts/treeSnapshotUsage.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/2.14/taskArtifacts/treeSnapshots.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/main/org/lenskit/mooc/nonpers/assoc/AssociationItemBasedItemRecommender$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/main/org/lenskit/mooc/nonpers/assoc/AssociationItemBasedItemRecommender$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/main/org/lenskit/mooc/nonpers/assoc/AssociationItemBasedItemRecommender.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/main/org/lenskit/mooc/nonpers/assoc/AssociationModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/main/org/lenskit/mooc/nonpers/assoc/BasicAssociationModelProvider.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/main/org/lenskit/mooc/nonpers/assoc/LiftAssociationModelProvider.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/main/org/lenskit/mooc/nonpers/mean/DampedItemMeanModelProvider.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/main/org/lenskit/mooc/nonpers/mean/ItemMeanModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/main/org/lenskit/mooc/nonpers/mean/ItemMeanModelProvider.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/main/org/lenskit/mooc/nonpers/mean/MeanItemBasedItemRecommender$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/main/org/lenskit/mooc/nonpers/mean/MeanItemBasedItemRecommender$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/main/org/lenskit/mooc/nonpers/mean/MeanItemBasedItemRecommender.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/distributions/nonpers-submission.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/docs/javadoc/allclasses-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/docs/javadoc/allclasses-noframe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/docs/javadoc/constant-values.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/docs/javadoc/deprecated-list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/docs/javadoc/help-doc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/docs/javadoc/index-all.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/docs/javadoc/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/docs/javadoc/org/lenskit/mooc/nonpers/assoc/AssociationItemBasedItemRecommender.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/docs/javadoc/org/lenskit/mooc/nonpers/assoc/AssociationModel.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/docs/javadoc/org/lenskit/mooc/nonpers/assoc/BasicAssociationModelProvider.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/docs/javadoc/org/lenskit/mooc/nonpers/assoc/LiftAssociationModelProvider.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/docs/javadoc/org/lenskit/mooc/nonpers/assoc/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/docs/javadoc/org/lenskit/mooc/nonpers/assoc/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/docs/javadoc/org/lenskit/mooc/nonpers/assoc/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/docs/javadoc/org/lenskit/mooc/nonpers/mean/DampedItemMeanModelProvider.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/docs/javadoc/org/lenskit/mooc/nonpers/mean/ItemMeanModel.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/docs/javadoc/org/lenskit/mooc/nonpers/mean/ItemMeanModelProvider.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/docs/javadoc/org/lenskit/mooc/nonpers/mean/MeanItemBasedItemRecommender.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/docs/javadoc/org/lenskit/mooc/nonpers/mean/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/docs/javadoc/org/lenskit/mooc/nonpers/mean/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/docs/javadoc/org/lenskit/mooc/nonpers/mean/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/docs/javadoc/overview-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/docs/javadoc/overview-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/docs/javadoc/overview-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/docs/javadoc/package-list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/docs/javadoc/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/docs/javadoc/serialized-form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/docs/javadoc/stylesheet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/nonpers-assignment.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/recommend-basic-assoc.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/recommend-damped-mean.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/recommend-lift-assoc.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/recommend-mean.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/javadoc/javadoc.options" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/movielens.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/movies.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/ratings.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/tags.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/etc/damped-mean.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/etc/lift-assoc.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/etc/mean.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/etc/simple-assoc.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/repositories.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nonpers-description.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/org/lenskit/mooc/nonpers/assoc/AssociationItemBasedItemRecommender$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/org/lenskit/mooc/nonpers/assoc/AssociationItemBasedItemRecommender$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/org/lenskit/mooc/nonpers/assoc/AssociationItemBasedItemRecommender.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/org/lenskit/mooc/nonpers/assoc/AssociationModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/org/lenskit/mooc/nonpers/assoc/BasicAssociationModelProvider.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/org/lenskit/mooc/nonpers/assoc/LiftAssociationModelProvider.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/org/lenskit/mooc/nonpers/mean/DampedItemMeanModelProvider.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/org/lenskit/mooc/nonpers/mean/ItemMeanModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/org/lenskit/mooc/nonpers/mean/ItemMeanModelProvider.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/org/lenskit/mooc/nonpers/mean/MeanItemBasedItemRecommender$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/org/lenskit/mooc/nonpers/mean/MeanItemBasedItemRecommender$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/org/lenskit/mooc/nonpers/mean/MeanItemBasedItemRecommender.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/lenskit/mooc/nonpers/assoc/AssociationItemBasedItemRecommender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/lenskit/mooc/nonpers/assoc/AssociationModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/lenskit/mooc/nonpers/assoc/BasicAssociationModelProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/lenskit/mooc/nonpers/assoc/LiftAssociationModelProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/lenskit/mooc/nonpers/mean/DampedItemMeanModelProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/lenskit/mooc/nonpers/mean/ItemMeanModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/lenskit/mooc/nonpers/mean/ItemMeanModelProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/lenskit/mooc/nonpers/mean/MeanItemBasedItemRecommender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lenskit-hello-master/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lenskit-hello-master/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lenskit-hello-master/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lenskit-hello-master/data/HW1-data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lenskit-hello-master/data/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lenskit-hello-master/data/links.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lenskit-hello-master/data/movielens.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lenskit-hello-master/data/movies.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lenskit-hello-master/data/ratings.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lenskit-hello-master/data/tags.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lenskit-hello-master/etc/item-item.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lenskit-hello-master/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lenskit-hello-master/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lenskit-hello-master/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lenskit-hello-master/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lenskit-hello-master/out/production/classes/org/grouplens/lenskit/hello/App$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lenskit-hello-master/out/production/classes/org/grouplens/lenskit/hello/App$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lenskit-hello-master/out/production/classes/org/grouplens/lenskit/hello/App$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lenskit-hello-master/out/production/classes/org/grouplens/lenskit/hello/App$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lenskit-hello-master/out/production/classes/org/grouplens/lenskit/hello/App$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lenskit-hello-master/out/production/classes/org/grouplens/lenskit/hello/App$6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lenskit-hello-master/out/production/classes/org/grouplens/lenskit/hello/App$7.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lenskit-hello-master/out/production/classes/org/grouplens/lenskit/hello/App$8.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lenskit-hello-master/out/production/classes/org/grouplens/lenskit/hello/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lenskit-hello-master/out/production/classes/org/grouplens/lenskit/hello/Gender.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lenskit-hello-master/out/production/classes/org/grouplens/lenskit/hello/HelloLenskit.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lenskit-hello-master/out/production/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lenskit-hello-master/src/main/java/org/grouplens/lenskit/hello/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lenskit-hello-master/src/main/java/org/grouplens/lenskit/hello/Gender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lenskit-hello-master/src/main/java/org/grouplens/lenskit/hello/HelloLenskit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lenskit-hello-master/src/main/resources/logback.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/classes/" />
+    <ignored path="$PROJECT_DIR$/.gradle/" />
+    <ignored path="$PROJECT_DIR$/build/" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="nonpers-assignment" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="nonpers-assignment" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="nonpers-assignment" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="documentation" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="nonpers-assignment" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="other" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="nonpers-assignment" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="run" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="nonpers-assignment" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="verification" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/lenskit/mooc/nonpers/assoc/AssociationItemBasedItemRecommender.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1139">
+              <caret line="88" column="25" selection-start-line="88" selection-start-column="25" selection-end-line="88" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/lenskit/mooc/nonpers/mean/MeanItemBasedItemRecommender.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="226">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/lenskit/mooc/nonpers/mean/ItemMeanModelProvider.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="833">
+              <caret line="65" column="14" selection-start-line="65" selection-start-column="14" selection-end-line="65" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/lenskit/mooc/nonpers/mean/DampedItemMeanModelProvider.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1173">
+              <caret line="82" column="9" selection-start-line="82" selection-start-column="9" selection-end-line="82" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/lenskit/mooc/nonpers/mean/ItemMeanModel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="30" column="43" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/lenskit/mooc/nonpers/assoc/LiftAssociationModelProvider.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1122">
+              <caret line="82" column="44" selection-start-line="82" selection-start-column="6" selection-end-line="82" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/lenskit/mooc/nonpers/assoc/AssociationModel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="29" column="7" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/lenskit/mooc/nonpers/assoc/BasicAssociationModelProvider.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1020">
+              <caret line="76" selection-start-line="76" selection-end-line="78" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>model</find>
+      <find>score</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/org/lenskit/mooc/nonpers/mean/ItemMeanModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/lenskit/mooc/nonpers/mean/MeanItemBasedItemRecommender.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/lenskit/mooc/nonpers/assoc/AssociationModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/lenskit/mooc/nonpers/assoc/LiftAssociationModelProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/lenskit/mooc/nonpers/assoc/BasicAssociationModelProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/lenskit/mooc/nonpers/assoc/AssociationItemBasedItemRecommender.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/lenskit/mooc/nonpers/mean/ItemMeanModelProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/lenskit/mooc/nonpers/mean/DampedItemMeanModelProvider.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="nonpers-assignment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nonpers-assignment" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/build.gradle" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Gradle.nonpers-assignment [prepareSubmission]">
+    <configuration name="nonpers-assignment [prepareSubmission]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="prepareSubmission" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="nonpers-assignment [runBasicAssoc]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="runBasicAssoc" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="nonpers-assignment [runDampedMean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="runDampedMean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="nonpers-assignment [runLiftAssoc]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="runLiftAssoc" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="nonpers-assignment [runMean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="runMean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.nonpers-assignment [runMean]" />
+        <item itemvalue="Gradle.nonpers-assignment [prepareSubmission]" />
+        <item itemvalue="Gradle.nonpers-assignment [runLiftAssoc]" />
+        <item itemvalue="Gradle.nonpers-assignment [runBasicAssoc]" />
+        <item itemvalue="Gradle.nonpers-assignment [runDampedMean]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fc2cf493-7ec9-49c1-b2a6-c79f2b032c85" name="Default Changelist" comment="" />
+      <created>1557165861071</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557165861071</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="nonpers-assignment_[test] - 2019.05.06 at 23h 07m 02s.xml">
+      <configuration name="nonpers-assignment [test]" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="nonpers-assignment_[test] - 2019.05.07 at 00h 33m 50s.xml">
+      <configuration name="nonpers-assignment [test]" configurationId="GradleRunConfiguration" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27231467" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Learn" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.39443535" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.15220949" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3289689" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Build" order="10" weight="0.3289689" />
+      <window_info active="true" anchor="bottom" id="Messages" order="11" visible="true" weight="0.3289689" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.32980332" />
+      <window_info anchor="right" id="Gradle" order="5" sideWeight="0.4987593" visible="true" weight="0.16868381" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Coverage" order="9" sideWeight="0.5012407" side_tool="true" weight="0.3290469" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Learn" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.396072" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.15220949" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3289689" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Build" order="10" weight="0.3289689" />
+      <window_info active="true" anchor="bottom" id="Messages" order="11" visible="true" weight="0.3289689" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.32980332" />
+      <window_info anchor="right" id="Gradle" order="5" sideWeight="0.4987593" weight="0.16868381" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Coverage" order="9" sideWeight="0.5012407" side_tool="true" weight="0.3290469" />
+    </layout-to-restore>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/nonpers_assignment$nonpers_assignment__runMean_.ic" NAME="nonpers-assignment [runMean] Coverage Results" MODIFIED="1557170815656" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/it.unimi.dsi/fastutil/7.0.12/4dc9c1e6bb1c47ffec41117b7641e37ef28fd957/fastutil-7.0.12-sources.jar!/it/unimi/dsi/fastutil/longs/LongSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="48" column="17" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etc/mean.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#0#65#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lenskit/lenskit-api/3.0-M1/414c4a2a4c0460351fd5a4bb510e4fa96afd7dd7/lenskit-api-3.0-M1-sources.jar!/org/lenskit/api/Result.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lenskit/lenskit-core/3.0-M1/221a0ebce5ae7579cc61819962d54ef3816c795/lenskit-core-3.0-M1-sources.jar!/org/lenskit/results/BasicResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="93" column="37" selection-start-line="93" selection-start-column="32" selection-end-line="93" selection-end-column="37" />
+          <folding>
+            <element signature="e#1600#1601#0" expanded="true" />
+            <element signature="e#1632#1633#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lenskit/lenskit-core/3.0-M1/221a0ebce5ae7579cc61819962d54ef3816c795/lenskit-core-3.0-M1-sources.jar!/org/lenskit/data/ratings/Rating.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1598">
+          <caret line="122" column="24" selection-start-line="122" selection-start-column="18" selection-end-line="122" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/it.unimi.dsi/fastutil/7.0.12/4dc9c1e6bb1c47ffec41117b7641e37ef28fd957/fastutil-7.0.12-sources.jar!/it/unimi/dsi/fastutil/longs/AbstractLongSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="94" column="15" selection-start-line="94" selection-start-column="15" selection-end-line="94" selection-end-column="15" />
+          <folding>
+            <element signature="e#2803#2804#0" expanded="true" />
+            <element signature="e#2853#2854#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/ratings.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="8" lean-forward="true" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/lenskit/mooc/nonpers/assoc/AssociationItemBasedItemRecommender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1139">
+          <caret line="88" column="25" selection-start-line="88" selection-start-column="25" selection-end-line="88" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/lenskit/mooc/nonpers/mean/ItemMeanModelProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="65" column="14" selection-start-line="65" selection-start-column="14" selection-end-line="65" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/lenskit/mooc/nonpers/mean/DampedItemMeanModelProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1173">
+          <caret line="82" column="9" selection-start-line="82" selection-start-column="9" selection-end-line="82" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/lenskit/mooc/nonpers/mean/ItemMeanModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="30" column="43" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/lenskit/mooc/nonpers/assoc/LiftAssociationModelProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="82" column="44" selection-start-line="82" selection-start-column="6" selection-end-line="82" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/lenskit/mooc/nonpers/assoc/AssociationModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="29" column="7" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/lenskit/mooc/nonpers/assoc/BasicAssociationModelProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="76" selection-start-line="76" selection-end-line="78" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/lenskit/mooc/nonpers/mean/MeanItemBasedItemRecommender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
