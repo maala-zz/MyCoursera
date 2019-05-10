@@ -1,7 +1,6 @@
 package org.lenskit.mooc.cbf;
 
 import org.lenskit.data.ratings.Rating;
-
 import javax.annotation.Nonnull;
 import javax.inject.Inject;
 import java.util.HashMap;
@@ -31,15 +30,18 @@ public class ThresholdUserProfileBuilder implements UserProfileBuilder {
     public Map<String, Double> makeUserProfile(@Nonnull List<Rating> ratings) {
         // Create a new vector over tags to accumulate the user profile
         Map<String,Double> profile = new HashMap<>();
-
         // Iterate over the user's ratings to build their profile
         for (Rating r: ratings) {
             if (r.getValue() >= RATING_THRESHOLD) {
-
+                Map<String,Double> itemTags = model.getItemVector(r.getItemId());
+                for (Map.Entry<String,Double> entry : itemTags.entrySet()) {
+                    if( profile.get(entry.getKey()) == null )
+                        profile.put(entry.getKey(),0.0) ;
+                    profile.put(entry.getKey(), entry.getValue() + profile.get(entry.getKey()));
+                }
                 // TODO Get this item's vector and add it to the user's profile
             }
         }
-
         // The profile is accumulated, return it.
         return profile;
     }

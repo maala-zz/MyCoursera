@@ -9,6 +9,7 @@ import org.lenskit.data.ratings.Rating;
 import org.lenskit.results.Results;
 
 import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
 import javax.inject.Inject;
 import java.util.ArrayList;
 import java.util.Collection;
@@ -63,16 +64,55 @@ public class TFIDFItemScorer extends AbstractItemScorer {
 
         // Get the user's profile, which is a vector with their 'like' for each tag
         Map<String, Double> userVector = profileBuilder.makeUserProfile(ratings);
-
+        double Psum = 0.0;
+        for (Map.Entry<String, Double> term : userVector.entrySet()) {
+        Psum+= term.getValue()*term.getValue() ;
+        }
+        Psum = Math.sqrt(Psum);
         for (Long item: items) {
             Map<String, Double> iv = model.getItemVector(item);
+//            if( item == 2231 ){
+//                for (Map.Entry<String, Double> term : iv.entrySet()) {
+//                   System.out.println(term.getKey()+" "+term.getValue());
+//                }
+//            }
+            double Qsum = 0.0, ProductSum = 0.0 ;
+            for (Map.Entry<String, Double> term : iv.entrySet()) {
+                double Qit = (double)term.getValue();
+                Qsum+= Qit*Qit;
+                double Put = userVector.get( term.getKey() ) != null ? userVector.get( term.getKey() ).doubleValue() : 0.0;
+                ProductSum+=Put*Qit;
+            }
+            Qsum = Math.sqrt(Qsum);
+            if( Psum*Qsum == 0.0 )continue;
+            final double cosine = ProductSum / ( Psum*Qsum );
+            final Long id = item ;
+            results.add(new Result() {
+                @Override
+                public long getId() {
+                    return id;
+                }
 
+                @Override
+                public double getScore() {
+                    return cosine;
+                }
+
+                @Override
+                public boolean hasScore() {
+                    return true;
+                }
+
+                @Nullable
+                @Override
+                public <T extends Result> T as(@Nonnull Class<T> type) {
+                    return null;
+                }
+            });
+            }
             // TODO Compute the cosine of this item and the user's profile, store it in the output list
             // TODO And remove this exception to say you've implemented it
             // If the denominator of the cosine similarity is 0, skip the item
-
-            throw new UnsupportedOperationException("stub implementation");
-        }
 
         return Results.newResultMap(results);
     }
